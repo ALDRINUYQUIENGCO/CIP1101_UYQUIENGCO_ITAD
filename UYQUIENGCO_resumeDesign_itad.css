@@ -1,7 +1,7 @@
 body
 {
     color: rgb(58, 54, 54);
-    background-color:#659DBD;
+    background-color:#a8def3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
@@ -12,19 +12,19 @@ h1
     font-size: 4em;
     font-variant: small-caps;
     text-indent: 1em;
-    background-color:#DAAD86 ;
-    color: #665836 ;
+    background-color:#659ee9 ;
+    color: rgb(58, 54, 54) ;
     text-shadow: 4px 4px 4px grey ;
 }
 h3
 {
-    color: #665836 ;
+    color: rgb(58, 54, 54) ;
     text-indent: 4em;
     text-align: left;
     font-family:'Times New Roman',serif;
     font-size: 1.5em;
     font-variant: small-caps;
-    background-color:#DAAD86 ;
+    background-color:#659ee9 ;
     word-spacing: 2px;
     letter-spacing: 5px;
     text-shadow: 4px 4px 6px grey ;
