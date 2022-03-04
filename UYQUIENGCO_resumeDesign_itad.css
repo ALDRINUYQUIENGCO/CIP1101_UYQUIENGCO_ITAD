@@ -1,0 +1,60 @@
+body
+{
+    color: rgb(58, 54, 54);
+    background-color:#a8def3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+h1
+{
+    text-align: left;
+    font-family:'Times New Roman',serif;
+    font-size: 4em;
+    font-variant: small-caps;
+    text-indent: 1em;
+    background-color:#659ee9 ;
+    color: whitesmoke;
+    text-shadow: 6px 6px 8px black ;
+    padding: 0.5em;
+
+}
+h3
+{
+    color:whitesmoke ;
+    text-indent: 4em;
+    text-align: left;
+    font-family:'Times New Roman',serif;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    background-color:#659ee9 ;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    text-shadow: 6px 6px 8px black ;
+}
+
+ol
+{
+    font-size:18px;
+    text-indent: 70px;
+    line-height: 25px;
+    word-spacing: 6px;
+    text-indent: 5em;
+    list-style: none;
+}
+ul
+{
+    font-size:18px;
+    text-indent: 70px;
+    line-height: 25px;
+    word-spacing: 6px;
+    text-indent: 5em;
+    list-style-position: inside;
+}
+p
+{
+    text-align: justify;
+    font-size:18px;
+    text-indent: 70px;
+    line-height: 30px;
+    word-spacing: 6px;
+}
