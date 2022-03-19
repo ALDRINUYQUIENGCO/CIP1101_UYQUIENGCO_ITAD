@@ -1,0 +1,56 @@
+body
+{
+    background-image: url(homepageBG.gif);
+    color: aliceblue;
+}
+img
+{
+    float: right;
+}
+h1
+{
+    font-family: Tahoma;
+    text-shadow: 2px 2px 2px #1F2833;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 60px;
+    margin: 0px;
+    padding: 30px;
+}
+ul
+{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+ul li
+{
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 10px;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: whitesmoke;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+ul li a:hover
+{
+    color: black;
+    box-shadow: 0 5px 50px whitesmoke;
+    font-size: 23px;
+    font-weight: bold;
+}

@@ -1,0 +1,116 @@
+body
+{
+    background-image: url(../space.gif);
+}
+h1
+{
+    font-family: tahoma;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px;
+
+}
+h2
+{
+    font-family: tahoma;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px;
+
+}
+h3
+{
+    font-size: 25px;
+    text-align: center;
+}
+h3 a
+{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;  
+    font-size: 40px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+h3 a:hover
+{
+    color: black;
+    box-shadow: 0px 5px 100px rgb(235, 235, 234);
+    font-size: 42px;
+    font-weight: bold;
+}
+p
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+ul
+{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+ul li
+{
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 10px;
+    word-spacing: 25px;
+    letter-spacing: 4px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: whitesmoke;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+ul li a:hover
+{
+    color: rgb(19, 19, 18);
+    box-shadow: 0px 5px 100px rgb(235, 235, 234);
+    font-size: 22px;
+    font-weight: bold;
+}
+ul.pictures1
+{
+    margin-top: 140px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+ul.pictures2
+{
+    margin-top: 240px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+ul.pictures3
+{
+    margin-top: 240px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
