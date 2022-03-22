@@ -87,30 +87,22 @@ ul li a:hover
     font-size: 22px;
     font-weight: bold;
 }
-ul.pictures1
+img
 {
-    margin-top: 140px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+    height: 350px;
+    width: 360px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 20px;
+    opacity: 0.75;
 }
-ul.pictures2
+img:hover
 {
-    margin-top: 240px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-}
-ul.pictures3
-{
-    margin-top: 240px;
-    margin-left: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+    opacity: 1;
+    border: 10px ridge;
+    border-top-color: red;
+    border-right-color: red;
+    border-bottom-color: white;
+    border-left-color: white;
+    box-shadow: 20px 20px 100px red;
 }
