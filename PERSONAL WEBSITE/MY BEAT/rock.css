@@ -1,0 +1,88 @@
+body
+{
+    background-color: #1F2833;
+    color: whitesmoke;
+    font-family: Verdana;
+    background-image: url(../space.gif);
+    font-size: 25px;
+}
+
+audio
+{
+    margin-left: 40px;
+}
+p
+{
+    font-size: 20px;
+    font-family: tahoma;
+    margin-left: 40px;
+}
+h1
+{
+    font-family: tahoma;
+    font-size: 60px;
+    text-align: center;
+    background-color: aliceblue;
+    color: #1F2833;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 20px;
+}
+img
+{
+    height: 300px;
+    width: 300px;
+    margin-top: 35px;
+    margin-left: 40px;
+    border-radius: 20px;
+    opacity: 0.75;
+}
+img:hover
+{
+    opacity: 1;
+    border: 10px ridge;
+    border-top-color: white;
+    border-right-color: black;
+    border-bottom-color: white;
+    border-left-color: black;
+    box-shadow: 20px 20px 100px white;
+}
+ul
+{
+    margin-left: 2px;
+    display: flex;
+}
+
+ul li
+{
+    font-size: 18px;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 50px;
+
+}
+ul li.BCG
+{
+    font-size: 18px;
+    list-style: none;
+    margin-right: 90px;
+    margin-left: 65px;
+
+}
+ul li.TFS
+{
+    font-size: 18px;
+    list-style: none;
+    margin-right: 150px;
+
+}
+a.back
+{
+    text-decoration: none;
+    color: white;
+}
+a.back .hover
+{
+    background-color: white;
+    color: #1F2833;
+}

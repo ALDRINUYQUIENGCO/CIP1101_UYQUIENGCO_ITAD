@@ -1,0 +1,70 @@
+body
+{
+    background-color: #1F2833;
+    color: whitesmoke;
+    font-family: Verdana;
+    background-image: url(../space.gif);
+    font-size: 25px;
+}
+h1
+{
+    text-align: center;
+    background-color: aliceblue;
+    color: #1F2833;
+    padding: 40px;
+    font-family: tahoma;
+    font-size: 50px;
+    margin: 0px;
+    border-radius: 20px;
+}
+h2
+{
+    text-align: right;
+}
+h2 a
+{
+    text-decoration: none;
+    color: #1F2833;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+    margin-right: 70px;
+}
+h2 a:hover
+{
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 3px 3px 50px white;
+
+}
+video
+{
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+    margin-right: 110px;
+}
+ul
+{
+    display: flex;
+}
+ul li.ASIA
+{
+    list-style: none;
+    background-color: aliceblue;
+    color: #1F2833;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 200px;
+}
+ul li.VOICE
+{
+    list-style: none;
+    background-color: aliceblue;
+    color: #1F2833;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 100px;
+}

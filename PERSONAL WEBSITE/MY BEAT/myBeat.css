@@ -1,0 +1,81 @@
+body
+{
+    background-color: #1F2833;
+    color: whitesmoke;
+    font-family: Verdana;
+    background-image: url(../space.gif);
+    font-size: 25px;
+}
+p
+{
+    text-align: center;
+    font-size: 30px;
+}
+h1
+{
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: #1F2833;
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    padding: 40px;
+}
+h2
+{
+    text-align: right;
+    margin-right: 50px;
+}
+h2 a
+{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;  
+    font-size: 30px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+h2 a:hover
+{
+    color: black;
+    box-shadow: 0px 5px 100px rgb(235, 235, 234);
+    font-size: 42px;
+    font-weight: bold;
+}
+ul
+{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+ul li
+{
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 10px;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: whitesmoke;
+    padding: 1.5em;
+    border-radius: 20px;
+    border:6px purple ridge;
+}
+ul li a:hover
+{
+    color: black;
+    box-shadow: 0 5px 50px whitesmoke;
+    font-size: 23px;
+    font-weight: bold;
+}
