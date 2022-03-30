@@ -44,6 +44,8 @@ video
     width: 500px;
     margin-left: 100px;
     margin-right: 110px;
+    border-radius: 20px;
+    border: 4px ridge rgb(168, 20, 197);
 }
 ul
 {
