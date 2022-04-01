@@ -4,8 +4,17 @@
 
 	<meta charset="utf-8">
 	<title></title>
+    <script language="JavaScript">
+        function writeText(txt)
+        {
+            document.getElementById("desc").innerHTML=txt;
+        }
+        function dissolveText(txt)
+        {
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
 	<style type="text/css">
-
 	</style>
 </head>
 <body>
@@ -13,26 +22,33 @@
 	<!--UYQUIENGCO, ALDRIN-->
 	<!--DATE-->
     <h1>PLACES I WANT TO VISIT</h1>
+    <br>
+    
+    <div align="center">
+        <img src="flags.png" usemap="#flags">
+        <map name="flags"> 
+            <area shape="poly" coords="47,492,148,419,195,483,98,558,48,491" href="GREECE/greece.html" target="newSpace" onmouseover=
+            "writeText('GREECE FLAG')"; onmouseout="dissolveText('')";>
+            <area shape="poly" coords="184,395,308,341,336,412,217,467,187,395" href="FRANCE/france.html" target="newSpace"onmouseover=
+            "writeText('FRANCE FLAG')"; onmouseout="dissolveText('')";>
+            <area shape="poly" coords="352,319,476,219,498,371,374,405,354,320" href="NORWAY/norway.html" target="newSpace" onmouseover=
+            "writeText('NORWAY FLAG')"; onmouseout="dissolveText('')";>
+            <area shape="poly" coords="538,279,665,280,664,363,539,362,536,278" href="JAPAN/japan.html" target="newSpace" onmouseover=
+            "writeText('JAPAN FLAG')"; onmouseout="dissolveText('')";>
+            <area shape="poly" coords="690,279,818,279,820,361,691,364,690,281" href="PHILIPPINES/philippines.html" target="newSpace" onmouseover=
+            "writeText('PHILIPPINES FLAG')"; onmouseout="dissolveText('')";>
+            <area shape="poly" coords="887,289,1009,325,984,403,860,367,886,288" href="CHINA/china.html" target="newSpace" onmouseover=
+            "writeText('CHINA FLAG')"; onmouseout="dissolveText('')";>
+            <area shape="poly" coords="1048,350,1158,405,1122,481,1010,424,1049,353" href="ITALY/italy.html" target="newSpace" onmouseover=
+            "writeText('ITALY FLAG')"; onmouseout="dissolveText('')";>
+            <area shape="poly" coords="1198,433,1296,505,1250,565,1148,497,1198,435" href="ICELAND/iceland.html" target="newSpace" onmouseover=
+            "writeText('ICELAND FLAG')"; onmouseout="dissolveText('')";>
+        </map>
+    </div>
+    <div>
+        <p id="desc"></p>
+    </div>
     <h3 class="home"><a href="../landingPage.html">HOME</a></h3>
-    <div>    
-        <ul class="menu1">
-            <li class="p7"><a href="PHILIPPINES/philippines.html">PHILIPPINES</a></li>
-            <li class="p2"><a href="FRANCE/france.html">FRANCE</a></li>
-            <li class="p3"><a href="JAPAN/japan.html">JAPAN</a></li>
-            <li class="p1"><a href="GREECE/greece.html">GREECE</a></li>
-            
-        </ul>
-    </div>
-    <div>    
-        <ul class="menu2">
-            <li class="p5"><a href="NORWAY/norway.html">NORWAY</a></li>
-            <li class="p6"><a href="CHINA/china.html">CHINA</a></li>
-            <li class="p4"><a href="ITALY/italy.html">ITALY</a></li>
-            <li class="p8"><a href="ICELAND/iceland.html">ICELAND</a></li>
-
-        </ul>
-    </div>
-
 	
 </body>
 </html>

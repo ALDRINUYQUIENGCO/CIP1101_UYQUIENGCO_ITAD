@@ -1,0 +1,193 @@
+body
+{
+    background-image: url(../homepageBG.gif);
+}
+
+h1
+{
+    font-size: 60px;
+    font-family: tahoma;
+    padding: 30px;
+    margin: 0px;
+    color: #1F2833;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+}
+h2
+{
+    font-size: 40px;
+    margin: 0px;
+}
+#B1
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    opacity: .75;
+    font-family: tahoma;
+    font-size: 25px;
+    border: 6px dotted blue;
+}
+#B1 p
+{
+    text-align: justify;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+#B1 h2
+{
+    text-align: left;
+    margin-left: 40px;
+}
+#B2
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    opacity: .75;
+    font-family: tahoma;
+    font-size: 25px;
+    border: 6px dotted purple;
+}
+#B2 p
+{
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+#B2 h2
+{
+    text-align: right;
+    margin-right: 40px;
+}
+#B3
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 130px;
+    border-radius: 10px;
+    opacity: .75;
+    font-family: tahoma;
+    font-size: 25px;
+    border: 6px dotted black;
+}
+#B3 p
+{
+    text-align: justify;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+#B3 h2
+{
+    text-align: left;
+    margin-left: 40px;
+}
+#B4
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 140px;
+    border-radius: 10px;
+    opacity: .75;
+    font-family: tahoma;
+    font-size: 25px;
+    border: 6px dotted maroon;
+}
+#B4 p
+{
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+#B4 h2
+{
+    text-align: right;
+    margin-right: 40px;
+}
+img.scuba
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 40px;
+}
+
+img.sky
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 40px;
+}
+
+img.drift
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 40px;
+}
+img.tattoo
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 40px;
+}
+img:hover
+{
+    opacity: 1;
+    border: ridge black 4px;
+    box-shadow: 0px 0px 100px white;
+}
+h3
+{
+    text-align: center;
+}
+h3 a
+{
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+h3 a:hover
+{
+    background-color: white;
+    border-radius: 10px;
+    border: ridge 2px purple;
+    font-size: 20px;
+    box-shadow: 0px 0px 100px white;
+}

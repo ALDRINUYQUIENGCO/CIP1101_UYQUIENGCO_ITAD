@@ -1,0 +1,90 @@
+h1
+{
+    font-size: 60px;
+    text-align: center;
+    color: #1F2833;
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 10px;
+    border: ridge 4px rgb(165, 85, 240);
+}
+body
+{
+    background-image: url(../space.gif);
+    font-family: tahoma;
+    padding: 0;
+    margin: 0;
+}
+h2
+{
+    color: #1F2833;
+    text-align: center;
+}
+h3
+{
+    text-align: center;
+}
+h3 a
+{
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+h3 a:hover
+{
+    background-color: white;
+    border-radius: 10px;
+    border: ridge 2px purple;
+    font-size: 20px;
+}
+p
+{
+    font-size: 18px;
+    font-family: tahoma;
+    color: #1F2833;
+    text-align: justify;
+}
+img
+{
+    display: block;
+    margin: 0 auto;
+    border: 4px ridge white;
+    height: 260px;
+    width: 300px;
+}
+#header
+{
+    margin-bottom: 10px;
+}
+#div1
+{
+    background-color: rgb(165, 85, 240);
+    width: 30.33%;
+    float: left;
+    height: 560px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+#div2
+{
+    background-color: rgb(165, 85, 240);
+    width: 30.33%;
+    float: right;
+    height: 560px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+#div3
+{
+    background-color: rgb(165, 85, 240);
+    width: 30.33%;
+    height: 560px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+
