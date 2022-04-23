@@ -1,0 +1,307 @@
+body
+{
+    background-image: url(formBackground.png);
+    color: #AA4465;
+}
+fieldset
+{
+    margin-top: 50px;
+    background-color: #DDFFF7;
+    border:2px solid #AA4465;
+    box-shadow: 5px 10px 10px #FFA69C;
+    width: 50%;
+    margin: 0 auto;
+}
+input
+{
+    border:1px solid black;
+    border-radius: 3px;
+}
+input:hover
+{
+    box-shadow: 0px 0px 10px #FFA69C;
+}
+
+label.form1
+{
+    margin: 20px 30px 20px 30px;
+}
+input.form1
+{
+    margin: 20px 30px 20px 30px;
+}
+textarea{
+    text-align: left;
+    border: solid 1px #999;
+    border-radius: 4px;
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
+    resize:none;
+    margin-bottom: 20px;
+  }
+p.header
+{
+    text-align: center;
+    color: white ;
+    background-color: #AA4465;
+    font-size: 35px;
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px;
+    margin: 20px;
+}
+p.desc
+{
+    color: #AA4465;
+    margin-left: 30px;
+}
+p.desc2
+{
+    text-align: center;
+}
+select.quantity
+{
+    margin-bottom: 40px;
+}
+.orders
+{
+    color: #AA4465;
+    margin: 0px;
+}
+
+input.orders
+{
+    margin: 10px 20px 20px 20px;
+}
+input.burger
+{
+    margin-left: 30px;
+}
+input.pasta
+{
+    margin-left: 70px;
+}
+input.fries
+{
+    margin-left: 80px;
+}
+input.drinks
+{
+    margin-left: 80px;
+}
+input
+{
+    padding: 12px;
+}
+input.singlePatty
+{
+    margin-left: 120px;
+}
+input.doublePatty
+{
+    margin-left: 125px;
+}
+input.addsOn
+{
+    margin-left: 25px;
+}
+input.buns
+{
+    margin-left: 35px;
+}
+input.cheese
+{
+    margin-left: 60px;
+}
+input.coleslaw
+{
+    margin-left: 115px;
+}
+input.tomato
+{
+    margin-left: 80px;
+}
+input.onion
+{
+    margin-left: 60px;
+}
+input.cucumber
+{
+    margin-left: 115px;
+}
+input.bacon
+{
+    margin-left: 80px;
+}
+input.extras
+{
+    margin-left: 55px;
+}
+input.chilliflakes
+{
+    margin-left: 46px;
+    margin-bottom: 50px;
+}
+input.extrabacon
+{
+    margin-left: 23px;
+}
+input.carbonara
+{
+    margin-left: 50px;
+}
+input.pesto
+{
+    margin-left: 95px;
+}
+input.spaghetti
+{
+    margin-left: 105px;
+}
+input.small
+{
+    margin-left: 75px;
+}
+input.medium
+{
+    margin-left: 110px;
+}
+input.large
+{
+    margin-left: 105px;
+}
+input.barbeque
+{
+    margin-left: 60px;
+}
+input.cheese
+{
+    margin-left: 90px;
+}
+input.sourcream
+{
+    margin-left: 95px;
+}
+input.small2
+{
+    margin-left: 75px;
+}
+input.medium2
+{
+    margin-left: 110px;
+}
+input.large2
+{
+    margin-left: 105px;
+}
+input.sprite
+{
+    margin-left: 75px;
+}
+input.coke
+{
+    margin-left: 120px;
+}
+input.royal
+{
+    margin-left: 120px;
+}
+input.deliver
+{
+    margin-left: 125px;
+    margin-bottom: 20px;
+}
+input.pickup
+{
+    margin-left: 165px;
+}
+p.deliverForm
+{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+img
+{
+    width: 100px;
+    height: 100px;
+    border: 2px ridge #AA4465;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+img.addsOnBurger
+{
+    width: 100px;
+    height: 100px;
+    border: 2px ridge #AA4465;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+img.addsOnBurger2
+{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 100px;
+    border: 2px ridge #AA4465;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+img.addsOnPasta
+{
+    width: 100px;
+    height: 100px;
+    border: 2px ridge #AA4465;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+img.addsOnPasta2
+{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 100px;
+    border: 2px ridge #AA4465;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+img.patties
+{
+    margin-left: 130px;
+}
+img.delivery
+{
+    margin-left: 120px;
+}
+input[type="submit"]{
+    margin-top: 1em;
+    border-radius: 6px;
+    background-color: #AA4465;
+    color: #fff;
+    font-family: 'Tahoma', sans-serif;
+    font-size: .8em;
+    margin-left: 280px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+input[type="submit"]:hover
+{
+    box-shadow: 0px 0px 20px red;
+}
+input[type="reset"]{
+    margin-top: 1em;
+    border-radius: 6px;
+    background-color: #AA4465;
+    color: #fff;
+    font-family: 'Tahoma', sans-serif;
+    font-size: .8em;
+    margin-left: 85px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+input[type="reset"]:hover
+{
+    box-shadow: 0px 0px 20px red;
+}
