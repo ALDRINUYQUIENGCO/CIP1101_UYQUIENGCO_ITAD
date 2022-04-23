@@ -282,7 +282,7 @@ input[type="submit"]{
     color: #fff;
     font-family: 'Tahoma', sans-serif;
     font-size: .8em;
-    margin-left: 280px;
+    margin-left: 20px;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
@@ -297,7 +297,7 @@ input[type="reset"]{
     color: #fff;
     font-family: 'Tahoma', sans-serif;
     font-size: .8em;
-    margin-left: 85px;
+    margin-left: 55px;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
