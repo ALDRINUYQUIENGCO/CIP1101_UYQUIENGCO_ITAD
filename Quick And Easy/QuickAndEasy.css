@@ -8,7 +8,7 @@
 {
     width: 100%;
     height: 80em;
-    background-image: url(photo/backgroundPhoto.jpg);
+    background-image: url(Photo/backgroundPhoto.jpg);
     background-position: center;
     background-size: cover;
 }
