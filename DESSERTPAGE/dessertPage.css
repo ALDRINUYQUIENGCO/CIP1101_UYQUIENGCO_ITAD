@@ -105,6 +105,7 @@ img.dessert
     margin-top: 5%;
     margin-left: 12%;
 }
+img.dessert:hover{ box-shadow: 0px 0px 20px #F0D274; }
 img.dessert2
 {
     width:350px;
@@ -113,6 +114,7 @@ img.dessert2
     margin-top: 5%;
     margin-left: 12%;
 }
+img.dessert2:hover{ box-shadow: 0px 0px 20px #F0D274; }
 img.dessert3
 {
     width:350px;
@@ -121,6 +123,7 @@ img.dessert3
     margin-top: 5%;
     margin-left: 12%;
 }
+img.dessert3:hover{ box-shadow: 0px 0px 20px #F0D274; }
 .lecheFlan
 {
     margin-left: 340px;
