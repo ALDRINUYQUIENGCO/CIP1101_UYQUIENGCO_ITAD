@@ -160,3 +160,14 @@ img.dessert3:hover{ box-shadow: 0px 0px 20px #F0D274; }
 {
     margin-left: 500px;
 }
+h1
+{
+    display: inline-block;
+    font-size: 100px;
+    margin-left: 700px;
+    color: #2f4f4f;
+    background-color: #F0D274;
+    border-radius: 5px;
+    padding:0px 20px 0px 20px;
+    box-shadow: 0px 0px 20px #F0D274;
+}
