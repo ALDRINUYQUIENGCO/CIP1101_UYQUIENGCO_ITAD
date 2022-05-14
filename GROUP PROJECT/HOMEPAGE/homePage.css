@@ -85,3 +85,11 @@ p
     font-size: 30px;
     color: #fff;
 }
+ul li.home a
+{
+    background-color: #F0D274;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    color: #2f4f4f;
+    font-weight: bold;
+}
