@@ -5,6 +5,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
+    background-color: #08a2f7;
 }
 
 form{
@@ -33,13 +34,14 @@ border-radius: 10px;
     box-shadow: 0px 0px 10px 8px #3637c9;
     background-color: #e0af1f;
     border-radius: 15px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 .sis {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     text-decoration: dashed 2px white;
     color: aliceblue;
 }
@@ -75,31 +77,25 @@ select
     width: 150px;
     border-radius: 20px;
     float: left;
-    margin-left: 80px;
+    margin-left: 170px;
     margin-top: 60px;
 }
 .description
 {
 
-    margin-left: 400px;
-    font-size: 40px;
+    margin-left: 350px;
+    font-size: 45px;
     padding-top:70px ;
     text-align: justify;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-}
-.logoName
-{
-    margin: 0px;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 20px;
     color: white;
 }
 .top
 {
 
     background-color: #3637c9;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .mainColor
 {
@@ -180,13 +176,17 @@ h4
 }
 img.ball
 {
-    margin-top: 40px;
-    margin-left: 60px;
+    height: 150px;
+    width: 230px;
+    margin-top: 120px;
+    margin-left: 30px;
 }
 img.ball1
 {
-    margin-top: 40px;
-    margin-left: 60px;
+    height: 150px;
+    width: 230px;
+    margin-top: 120px;
+    margin-left: 30px;
 }
 img.star
 {
