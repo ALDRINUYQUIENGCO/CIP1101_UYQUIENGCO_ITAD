@@ -1,0 +1,263 @@
+@media only screen and (min-width: 1200px)
+{
+  div .head
+  {
+      width: 100%;
+  }
+  div .table
+  {
+      width: 100%;
+  }
+  div .gotop
+  {
+      clear:both;
+  }
+}
+@media (min-width:600px)
+{
+  div .head
+  {
+      width: 50%;
+      float:left ;
+  }
+  div .table
+  {
+      width: 50%;
+      float: left;
+  }
+  div .gotop
+  {
+      clear:both;
+  }
+}    
+@media(min-width:850px)
+{
+  div .head
+  {
+      width: 50%;
+  }
+  div .table
+  {
+      width: 25%;
+      clear: none;
+      float: right;
+  }
+  div .gotop
+  {
+      clear: both;
+  }
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title
+{
+  background-color: #191a1a;
+  padding:20px 60px 60px 60px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  box-shadow: 0px 0px 1px 2px grey;
+}
+.mlogo
+{
+    margin-top: 20px;
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-left: 250px;
+    border: solid aliceblue 1px;
+}
+.topTitle
+{
+  font-family:serif;
+  color:white;
+  text-shadow:0px 0px 10px purple;
+  font-size:75px;
+  margin-top: 50px;
+  margin-left: 450px;
+}
+body
+{
+  color:aliceblue;
+  background-image: url(galaxy.gif);
+font-family: 'Courier New', Courier, monospace;
+}
+table {
+  margin: auto;
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 80%;
+font-size: 25px;
+border-radius: 10px;
+}
+
+td, th {
+border: 3px groove #32006d;
+text-align: justify;
+padding: 8px;
+}
+tr {
+background-color: #191a1a;
+}
+.movies
+{
+  height:400px;
+  width:400px;
+}
+td .synopsis
+{
+  font-size:15px;
+}
+th
+{
+  font-size:45px;
+}
+
+h3
+{
+  font-size: 15px;
+}
+.button {
+margin-left: 600px;
+transition-duration: 0.4s;
+text-decoration:none;
+color: aliceblue;
+background-color: #0762b5;
+padding: 5px;
+border-radius: 5px;
+}
+
+.button:hover {
+background-color: #191a1a;
+color: white;
+border-radius:5px;
+padding:5px;
+border: solid 1px aliceblue;
+}
+tr.m1:hover 
+{
+  background-image:url(spider.jpg);
+}
+tr.m2:hover 
+{
+  background-image:url(batman.png);
+}
+tr.m3:hover 
+{
+  background-image:url(king.jpg);
+}
+tr.m4:hover 
+{
+  background-image:url(big.jpg);
+}
+tr.m5:hover 
+{
+  background-image:url(super.jpg);
+}
+tr.m6:hover 
+{
+  background-image:url(thor.jpg);
+}
+tr.m7:hover 
+{
+  background-image:url(hotel.jpg);
+}
+tr.m8:hover 
+{
+  background-image:url(life.jpg);
+}
+tr.m9:hover 
+{
+  background-image:url(venom.jpg);
+}
+tr.m10:hover 
+{
+  background-image:url(logan.jpg);
+}
+h4
+{
+  font-size: 25px;
+}
+.apic
+{
+  height: 150px;
+  width: 150px;
+}
+.continer
+{
+  max-width: 1170px;
+  background-color: red;
+  margin: auto;
+}
+.row
+{
+  display: flex;
+
+}
+ul
+{
+  list-style: none;
+}
+.footer
+{
+  margin-top: 40px;
+  background-color: #191a1a;
+  box-shadow: 0px 0px 1px 2px grey;
+  padding:40px;
+}
+.footer-col
+{
+  width: 30%;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+ul.list
+{
+  display: flex;
+  margin-top: 60px;
+  margin-left: 40px;
+  font-size: 35px;
+}
+li.list
+{
+  border-radius: 10px;
+  margin-left: 80px;
+  padding: 10px;
+  background-color: aliceblue;
+  color: #191a1a;
+}
+ul.list2
+{
+  display: flex;
+  margin-left: 40px;
+  font-size: 35px;
+}
+li.list2
+{
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: aliceblue;
+  color: #191a1a;
+}
+li.list:hover
+{
+  box-shadow: 0px 0px 20px 10px #0762b5;
+}
+li.list2:hover
+{
+  box-shadow: 0px 0px 20px 10px #0762b5;
+}
+a
+{
+  text-decoration: none;
+  color:#0762b5 ;
+}
