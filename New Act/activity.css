@@ -216,4 +216,7 @@ img.pencil1
     height: 250px;
     width: 150px;
 }
-
+input[type="submit"]
+{
+    font-weight: bold;
+}
