@@ -1,0 +1,244 @@
+/*Default*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*set body width and position it center*/
+body
+{
+    width: 90%;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0,0,0,0.55) ,rgba(0,0,0,0.55)),url(bgm.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+
+}
+.logo div
+{
+    width: 50%;
+}
+.logo img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-image: url(Tim.png);
+    margin-right: 100px;
+    background-position: center;
+    background-size: cover;
+}
+/*nav container properties*/
+.nav-container
+{
+    margin-top: 30px;
+    position: relative;
+    
+    /*apply flex to get left and right nav in a row*/
+    display: flex;
+
+    /*push both the blocks to the edge by using jusdtify-content*/
+    justify-content: space-between;
+
+}
+
+/*anchor element style*/
+.right-side li a
+{
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    padding: 10px 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.left-side li a
+{
+    text-decoration: none;
+    display: block;
+
+    font-size: 25px;
+    color: #fff;
+    padding: 14px 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/*ul li effects*/
+.left-side li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #8f4700;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    transition: 0.5s;
+}
+.left-side li :hover::after
+{
+    width: 100%;
+}
+.left-side li :hover
+{
+    color: orange;
+}
+
+.right-side li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #8f4700;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: 0.5s;
+}
+.right-side li :hover::after
+{
+    width: 100%;
+}
+.right-side li :hover
+{
+    color: orange;
+}
+
+.left-side div
+{
+    width: 30%;
+}
+
+.right-side div
+{
+    width: 20%;
+}
+
+/*nav properties removing the bullet design */
+.right-side, .left-side
+{
+    list-style-type: none;
+    
+}
+
+/*li display property change from block to inline-block */
+.right-side li, .left-side li
+{
+    display: inline-block;
+    position: relative;
+}
+
+/*nav right anchor*/
+.navR a
+{
+    color: #fff;
+}
+
+/*main page content properties*/
+.midContent
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    color: #fff;
+
+}
+.midContent h2
+{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+/*Text effects MUSEUM*/
+.midContent h1
+{
+    line-height: 70%;
+    font-size: 200px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background:url(textbgWhite.png);
+    -webkit-background-clip: text;
+    background-position: center;
+    animation: back 40s linear infinite;
+}
+@keyframes back
+{
+    100%
+    {
+        background-position: 2000px 0;
+    }    
+}
+
+.midContent p
+{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+/*button effects*/
+.bottomButton
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 640px;
+}
+.bottomButton button
+{
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor:pointer;
+    position: relative;
+    overflow:hidden;
+    font-size: 20px;
+}
+button
+{
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor:pointer;
+    position: relative;
+    overflow:hidden;
+    font-size: 15px;
+}
+span
+{
+    background: #6e4604;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span
+{
+    width: 100%;
+
+}
+button:hover
+{
+    border: none;
+}
